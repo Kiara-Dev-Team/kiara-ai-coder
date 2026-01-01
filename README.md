@@ -1,53 +1,46 @@
+# KiaraAI Coder: AI-Powered Business Websites in 1 Second
 
-# Bolt.new: AI-Powered Full-Stack Web Development in the Browser
+KiaraAI Coder is an AI-powered website builder that creates professional business websites for small shops and service providers instantly—no coding or technical setup required.
 
-Bolt.new is an AI-powered web development agent that allows you to prompt, run, edit, and deploy full-stack applications directly from your browser—no local setup required. If you're here to build your own AI-powered web dev agent using the Bolt open source codebase, [click here to get started!](./CONTRIBUTING.md)
+## What Makes KiaraAI Different
 
-## What Makes Bolt.new Different
+Unlike generic website builders that require hours of setup, KiaraAI is built specifically for street-level businesses:
 
-Claude, v0, etc are incredible- but you can't install packages, run backends or edit code. That’s where Bolt.new stands out:
+* **Instant Business Sites**: KiaraAI understands typical B2C business needs:
+   * Retail shops (clothing, accessories, specialty goods)
+   * Service providers (salons, repair shops, consultants)
+   * Freelancers (photographers, designers, coaches)
+   * Food & beverage (cafes, restaurants, bakeries)
 
-- **Full-Stack in the Browser**: Bolt.new integrates cutting-edge AI models with an in-browser development environment powered by **StackBlitz’s WebContainers**. This allows you to:
-  - Install and run npm tools and libraries (like Vite, Next.js, and more)
-  - Run Node.js servers
-  - Interact with third-party APIs
-  - Deploy to production from chat
-  - Share your work via a URL
+* **Pre-Built Business Templates**: AI instantly generates:
+   * Product catalogs with pricing
+   * Service menus and booking forms
+   * Contact forms and location maps
+   * Business hours and about pages
+   * Mobile-optimized layouts
 
-- **AI with Environment Control**: Unlike traditional dev environments where the AI can only assist in code generation, Bolt.new gives AI models **complete control** over the entire  environment including the filesystem, node server, package manager, terminal, and browser console. This empowers AI agents to handle the entire app lifecycle—from creation to deployment.
+* **1-Second Deployment**: Describe your business in plain language, get a live website immediately. No technical knowledge needed.
 
-Whether you’re an experienced developer, a PM or designer, Bolt.new allows you to build production-grade full-stack applications with ease.
+## Best Practices
 
-For developers interested in building their own AI-powered development tools with WebContainers, check out the open-source Bolt codebase in this repo!
+* **Describe your business clearly**: "I run a hair salon offering cuts, coloring, and styling" works better than vague descriptions
 
-## Tips and Tricks
+* **Mention your essentials upfront**: Include your business name, location, services/products, and contact info in your first message
 
-Here are some tips to get the most out of Bolt.new:
+* **Start with core pages, then customize**: Get your home, services, and contact pages live first, then add galleries, testimonials, or special features
 
-- **Be specific about your stack**: If you want to use specific frameworks or libraries (like Astro, Tailwind, ShadCN, or any other popular JavaScript framework), mention them in your initial prompt to ensure Bolt scaffolds the project accordingly.
+* **Batch simple changes**: Request multiple updates at once—"change colors to blue, add Instagram link, update business hours"—to save time
 
-- **Use the enhance prompt icon**: Before sending your prompt, try clicking the 'enhance' icon to have the AI model help you refine your prompt, then edit the results before submitting.
+## FAQ
 
-- **Scaffold the basics first, then add features**: Make sure the basic structure of your application is in place before diving into more advanced functionality. This helps Bolt understand the foundation of your project and ensure everything is wired up right before building out more advanced functionality.
+**What does it cost?** KiaraAI offers a free tier for basic business sites. Paid plans unlock custom domains, advanced features, and priority support. Upgrade in settings (bottom-left corner).
 
-- **Batch simple instructions**: Save time by combining simple instructions into one message. For example, you can ask Bolt to change the color scheme, add mobile responsiveness, and restart the dev server, all in one go saving you time and reducing API credit consumption significantly.
+**What if I hit usage limits?** Free tier has daily limits. Upgrade anytime or wait 24 hours for reset.
 
-## FAQs
+**Is this in beta?** Yes. We're actively improving based on small business owner feedback.
 
-**Where do I sign up for a paid plan?**  
-Bolt.new is free to get started. If you need more AI tokens or want private projects, you can purchase a paid subscription in your [Bolt.new](https://bolt.new) settings, in the lower-left hand corner of the application. 
+**How do I report issues?** Use the Issues section. Search first to avoid duplicates.
 
-**What happens if I hit the free usage limit?**  
-Once your free daily token limit is reached, AI interactions are paused until the next day or until you upgrade your plan.
+**What types of businesses work best?** Any B2C street business: retail, services, food, freelance, consulting. If you serve local customers, KiaraAI works for you.
 
-**Is Bolt in beta?**  
-Yes, Bolt.new is in beta, and we are actively improving it based on feedback.
-
-**How can I report Bolt.new issues?**  
-Check out the [Issues section](https://github.com/stackblitz/bolt.new/issues) to report an issue or request a new feature. Please use the search feature to check if someone else has already submitted the same issue/request.
-
-**What frameworks/libraries currently work on Bolt?**  
-Bolt.new supports most popular JavaScript frameworks and libraries. If it runs on StackBlitz, it will run on Bolt.new as well.
-
-**How can I add make sure my framework/project works well in bolt?**  
-We are excited to work with the JavaScript ecosystem to improve functionality in Bolt. Reach out to us via [hello@stackblitz.com](mailto:hello@stackblitz.com) to discuss how we can partner!
+**Can I integrate booking/payment systems?** Contact hello@kiaraai.com to discuss integrations for your business type.
